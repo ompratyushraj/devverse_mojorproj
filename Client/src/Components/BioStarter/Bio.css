@@ -1,0 +1,53 @@
+/* body{
+    background:url(https://img.freepik.com/premium-vector/vivid-blurred-colorful-gradient-wallpaper-background-illustration_969463-3069.jpg?semt=ais_hybrid);
+    background-size:100%;
+    background-position:center;
+
+} */
+
+
+
+
+.containers{
+    width: 540px;
+    height: 300px;
+    margin: 200px auto;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  /* align-items: center; */
+    
+
+}
+
+/* textarea{
+::placeholder{
+    color: rgba(255,255,255,0.5);
+    font-size: 20px;
+    font-weight: bold;
+}
+} */
+
+
+
+textarea{
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.glass{
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255,255,255,0.1);
+    box-shadow:0 8px 32px 0 rgba(0,0,0,0.37);
+
+}
+button:hover{
+
+
+    font-size: 18px;
+
+}
